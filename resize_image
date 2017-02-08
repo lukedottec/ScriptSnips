@@ -6,7 +6,7 @@ import os, sys
 import PIL.Image as Image
 
 # Incorrect use: show usage 
-if len(sys.argv) < 2: 
+if len(sys.argv) < 3: 
     this_script = os.path.basename(__file__)
     print("Usage:", "'" + this_script, "image_file", "dimen_1",
             "[dimen_2]", "[...]'")
